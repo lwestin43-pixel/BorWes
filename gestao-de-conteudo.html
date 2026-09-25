@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -414,4 +415,422 @@
     </script>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestão de Conteúdo | BorWes Marketing</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+<style>
+    /* Estilos específicos desta página — o restante vem de style.css */
+
+    .content-hero {
+        background-color: #14151a;
+        color: #fff;
+        padding: 90px 0 70px;
+    }
+
+    .content-hero .container {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        justify-content: space-between;
+    }
+
+    .content-hero h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 1.25;
+        max-width: 560px;
+    }
+
+    .content-hero p {
+        margin-top: 18px;
+        max-width: 480px;
+        color: #cfcfcf;
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+
+    .content-hero .image-placeholder img {
+        max-width: 380px;
+        border-radius: 10px;
+    }
+
+    .includes {
+        padding: 70px 0;
+    }
+
+    .includes h2 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 1.9rem;
+        margin-bottom: 40px;
+    }
+
+    .includes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 24px;
+    }
+
+    .includes-box {
+        border: 1px solid #eaeaea;
+        border-radius: 8px;
+        padding: 26px 22px;
+    }
+
+    .includes-box h3 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        color: #14151a;
+    }
+
+    .includes-box p {
+        color: #555;
+        font-size: 0.95rem;
+        line-height: 1.55;
+    }
+
+    .plans {
+        background-color: #f7f7f9;
+        padding: 70px 0;
+    }
+
+    .plans h2 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 1.9rem;
+        margin-bottom: 40px;
+    }
+
+    .plans-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 24px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .plan-card {
+        background: #fff;
+        border-radius: 8px;
+        padding: 32px 26px;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plan-card.featured {
+        border: 2px solid #ffcc00;
+    }
+
+    .plan-card h3 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 1.15rem;
+        color: #14151a;
+        margin-bottom: 8px;
+    }
+
+    .plan-card .plan-desc {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 18px;
+        line-height: 1.5;
+    }
+
+    .plan-card ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 24px;
+        flex-grow: 1;
+    }
+
+    .plan-card ul li {
+        color: #444;
+        font-size: 0.9rem;
+        padding: 7px 0;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .plan-card ul li:first-child {
+        border-top: none;
+    }
+
+    .plan-card .btn {
+        text-align: center;
+    }
+
+    .content-cadence {
+        padding: 70px 0;
+    }
+
+    .content-cadence h2 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 1.9rem;
+        margin-bottom: 40px;
+    }
+
+    .cadence-steps {
+        max-width: 720px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .cadence-step {
+        display: flex;
+        gap: 20px;
+        padding: 20px 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .cadence-step:last-child {
+        border-bottom: none;
+    }
+
+    .cadence-step .num {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: #ffcc00;
+        width: 36px;
+        flex-shrink: 0;
+    }
+
+    .cadence-step h3 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.05rem;
+        margin-bottom: 4px;
+        color: #14151a;
+    }
+
+    .cadence-step p {
+        color: #555;
+        font-size: 0.92rem;
+        line-height: 1.5;
+    }
+</style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">BorWes Marketing<span class="yellow">.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Início</a>
+                <a href="websites/index.html">Criação de sites</a>
+                <a href="telas-digitais.html">Telas digitais</a>
+                <a href="anuncios-online.html">Anúncios online</a>
+                <a href="gestao-de-conteudo.html">Gestão de conteúdo</a>
+                <a href="https://wa.me/5511980803995" class="nav-cta">Fale Conosco</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="content-hero">
+        <div class="container">
+
+            <div>
+                <h1>Gestão de Conteúdo Para Sua Marca Nunca Parar</h1>
+                <p>
+                    Cuidamos da atualização das suas telas, redes sociais e canais
+                    digitais para você não precisar pensar nisso — conteúdo relevante,
+                    no ritmo certo, sem depender da sua agenda.
+                </p>
+
+                <a href="https://wa.me/5511980803995" class="btn">
+                    Solicite uma Proposta
+                </a>
+            </div>
+
+            <div class="image-placeholder">
+                <img src="imagens/360084.jpg" alt="Gestão de conteúdo digital">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- O QUE ESTÁ INCLUSO -->
+    <section class="includes">
+        <div class="container">
+
+            <h2>O Que Fica Sob Nossos Cuidados</h2>
+
+            <div class="includes-grid">
+
+                <div class="includes-box">
+                    <h3>Telas e Totens</h3>
+                    <p>Atualização de promoções, cardápios e avisos exibidos nos seus pontos físicos.</p>
+                </div>
+
+                <div class="includes-box">
+                    <h3>Redes Sociais</h3>
+                    <p>Publicações programadas e alinhadas com a identidade da sua marca.</p>
+                </div>
+
+                <div class="includes-box">
+                    <h3>Site</h3>
+                    <p>Pequenas atualizações de texto, imagens e informações sempre em dia.</p>
+                </div>
+
+                <div class="includes-box">
+                    <h3>Calendário de Conteúdo</h3>
+                    <p>Planejamento mensal do que será publicado em cada canal.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section class="plans">
+        <div class="container">
+
+            <h2>Planos de Gestão</h2>
+
+            <div class="plans-grid">
+
+                <div class="plan-card">
+                    <h3>Essencial</h3>
+                    <p class="plan-desc">Para quem precisa manter um canal sempre atualizado.</p>
+                    <ul>
+                        <li>1 canal (tela, site ou rede social)</li>
+                        <li>Atualizações mensais</li>
+                        <li>Suporte por WhatsApp</li>
+                    </ul>
+                    <a href="https://wa.me/5511980803995" class="btn">Solicitar</a>
+                </div>
+
+                <div class="plan-card featured">
+                    <h3>Completo</h3>
+                    <p class="plan-desc">Para negócios com presença física e digital ativa.</p>
+                    <ul>
+                        <li>Até 3 canais integrados</li>
+                        <li>Atualizações semanais</li>
+                        <li>Calendário de conteúdo mensal</li>
+                        <li>Suporte prioritário</li>
+                    </ul>
+                    <a href="https://wa.me/5511980803995" class="btn">Solicitar</a>
+                </div>
+
+                <div class="plan-card">
+                    <h3>Rede</h3>
+                    <p class="plan-desc">Para empresas com múltiplos pontos ou unidades.</p>
+                    <ul>
+                        <li>Canais ilimitados</li>
+                        <li>Gestão personalizada por unidade</li>
+                        <li>Relatório mensal de desempenho</li>
+                    </ul>
+                    <a href="https://wa.me/5511980803995" class="btn">Solicitar</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="content-cadence">
+        <div class="container">
+
+            <h2>Como Funciona</h2>
+
+            <div class="cadence-steps">
+
+                <div class="cadence-step">
+                    <div class="num">1</div>
+                    <div>
+                        <h3>Levantamento dos canais</h3>
+                        <p>Mapeamos telas, redes sociais e site que vão entrar na gestão.</p>
+                    </div>
+                </div>
+
+                <div class="cadence-step">
+                    <div class="num">2</div>
+                    <div>
+                        <h3>Planejamento mensal</h3>
+                        <p>Montamos o calendário de conteúdo alinhado com datas e promoções do seu negócio.</p>
+                    </div>
+                </div>
+
+                <div class="cadence-step">
+                    <div class="num">3</div>
+                    <div>
+                        <h3>Produção e publicação</h3>
+                        <p>Criamos e publicamos o conteúdo em cada canal, no prazo combinado.</p>
+                    </div>
+                </div>
+
+                <div class="cadence-step">
+                    <div class="num">4</div>
+                    <div>
+                        <h3>Acompanhamento</h3>
+                        <p>Reportamos o que foi feito e ajustamos o plano conforme o resultado.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contato">
+        <div class="container">
+
+            <h2>Pronto Para Deixar Sua Presença Digital nas Nossas Mãos?</h2>
+
+            <p>
+                Fale com a gente e descubra o plano de gestão de conteúdo ideal para
+                o seu negócio.
+            </p>
+
+            <a href="https://wa.me/5511980803995" class="btn">
+                Fale Conosco Agora
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 BorWes Marketing | Sites • Marketing Digital • OOH
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+>>>>>>> bf4bfd668aac9f91110c5e01ed2a2ae5f148f6b6
 </html>
